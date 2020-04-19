@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    box-sizing: 0;
+}
+
+header {
+    background-color: tomato;
+    height: 70px;
+}
+
+aside, section {
+    /* por defecto es block */
+    display: inline-block;
+}
+/* aside y section son block */
+
+/* cCuando se transforma un elemento a inline-bñlock el elemento es tratado com letras, no se tiene que dejar espacios*/
+main{
+
+    height: 830px;
+}
+aside{
+    /* por defecto es block */
+      height: 100%;
+    width: 20%;
+    background-color: greenyellow;
+}
+
+section{
+    height: 100%;
+    width: 60%;
+    background-color: orange;
+}
