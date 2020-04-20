@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background-color: #eeeeee;
+    /* border: 1PX solid red; */
+
+}
+.Contenedor{
+    width: 1000px;
+    height: 600px;
+    /* border: 1PX solid red; */
+    background-color: #E8E7E7;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.Menu{
+    /* border: 1px solid red; */
+    background-color:#35302D;
+    width: 30%;
+    height: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.Contenido{
+    background-color: yellow;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+.Fix{
+    clear: both;
+}

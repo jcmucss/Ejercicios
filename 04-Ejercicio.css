@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: #eeeeee;
+    border: 1PX solid red;
+}
+
+.Contenedor {
+    width: 650px;
+    height: 600px;
+    /* border: 1PX solid red; */
+    background-color: #E8E7E7;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Div-1 {
+    width: 310px;
+    height: 300px;
+    background-color: #ffffff;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ImageCircular {
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 50%;
+}
+
+.Div-1>p {
+    /* margin-top: 50%; */
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #628EC9;
+    font-size: 20px;
+}
+
+.Div-1>span {
+    /* margin-top: 50%; */
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #73726E;
+    font-size: 10px;
+}
+
+.Div-Iconos{
+    width: 200px;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+
+.Div-Iconos>img{
+    padding: 0px 5px;
+}

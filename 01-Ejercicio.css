@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+#NavigationBar {
+    background-color: #FEFEDC;
+    height: 5%;
+}
+
+#Header {
+    background-color: #FEDCFE;
+    height: 15%;
+}
+
+#SideBar {
+    float: left;
+    width: 30%;
+    height: 50%;
+    background-color: #DCDCFE;
+}
+
+#MainContent {
+    float: left;
+    width: 70%;
+    height: 50%;
+    background-color: #DCFEFE;
+}
+
+#Aside-1 {
+    float: left;
+    width: 30%;
+    height: 25%;
+    background-color: #FEDCDC;
+}
+
+#Aside-2 {
+    float: left;
+    width: 35%;
+    height: 25%;
+    background-color: #DCFEDC;
+}
+
+#Aside-3 {
+    float: left;
+    width: 35%;
+    height: 25%;
+    background-color: #DCDCFE;
+  
+}
+
+#Footer {
+    float: left;
+    height: 5%;
+    width: 100%;
+    background-color: silver;
+}
+
+.Fix {
+    clear: both;
+}

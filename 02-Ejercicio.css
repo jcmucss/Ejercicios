@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    border: 1px solid red;
+}
+
+#NavigationBar {
+    background-color: #FEFEDC;
+    height: 5%;
+}
+
+#Header {
+    background-color: #FEDCFE;
+    height: 15%;
+}
+
+#ContenedorAside {
+    float: left;
+    width: 30%;
+    height: 75%;
+}
+
+#Aside-1 {
+    height: 33.3%;
+    background-color: #FEDCDC;
+}
+
+#Aside-2 {
+    height: 33.3%;
+    background-color: #DCFEDC;
+}
+
+#Aside-3 {
+    height: 33.4%;
+    background-color: #DCDCFE;
+}
+
+#MainContent {
+    float: left;
+    width: 70%;
+    height: 75%;
+    background-color: #DCFEFE;
+}
+
+#Footer {
+    float: left;
+    height: 5%;
+    width: 100%;
+    background-color: silver;
+}
+
+.Fix {
+    clear: both;
+}
