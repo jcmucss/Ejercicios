@@ -37,3 +37,23 @@ main{
 .Fix{
     clear: both;
 }
+
+.Menu h3{
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+.Menu ul{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgba(247, 247, 247, 0.05);
+}
+.Menu ul:hover{
+
+    border-right: 5px solid #DF4500;
+}
+
