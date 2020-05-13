@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #ededed;
+}
+
+.Main {
+    margin-top: 20px;
+    flex: 1;
+    max-width: 720px;
+    /* background-color: var(--Morado); */
+    box-shadow: #444444 0px 0px 10px;
+    /* padding: 30px; */
+    height: calc(100vh-80px);
+}
+
+.Main__Header {
+    margin: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* height: 50px; */
+    box-shadow: #444444 0px 0px 10px;
+    background-color: darkblue;
+    color: #cccccc;
+}
+
+.Main__Datos {
+    margin: 10px;
+    flex-wrap: wrap;
+    /* border: 1px solid purple; */
+    /* height: 100px; */
+    /* overflow: hidden; */
+    display: flex;
+    background-color: #dddddd;
+    justify-content:space-between;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: #444444 0px 0px 10px;
+    
+}
+
+.Campos {
+    
+    padding: 20px 10px;
+    /* border: 1px solid green; */
+    /* height: 50px; */
+    width: 100%;
+    flex: 1;
+    /* justify-content: space-around; */
+    align-items: center;
+    
+}
+.Main__Datos input {
+ border-style: none;
+ /* height: 20px; */
+}
+
+.Main__Descripcion{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    justify-content: space-around;
+    text-align: center;
+    /* border: 1px solid yellow; */
+    /* height: 80px; */
+    font-weight: bold;
+    box-shadow: #444444 0px 0px 10px;  
+    background-color: #dddddd; 
+}
+.Main__Descripcion>div{
+   flex: 1;
+    /* overflow: hidden; */
+    padding: 10px 5px;
+    /* border: 1px solid pink; */
+   
+    align-items:center;
+    
+}
+#BtnAgregar{
+    height: 100%;
+    font-size: 2.5rem;
+}
+#Agregar{
+    flex: 0.3;
+}
+
+
+.Main__Descripcion div input,button{
+    /* max-width: 120px; */
+    width: 100%;
+
+}
+
+#FooterTabla{
+font-weight: bold;
+}
+
+.Guardar{
+    display:flex;
+    justify-content: center;
+    
+}
+#BtnGuardar{
+    width: 200px;
+    
+}
+/* 
+.Main__Listado table{
+    width: 100%;
+        background-color: khaki;
+}
+.Main__Listado table td{
+height: 20px;
+} */
+/* .Guardar{
+    width: calc(100%-200px);
+} */
